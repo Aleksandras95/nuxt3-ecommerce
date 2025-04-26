@@ -1,5 +1,5 @@
 <template>
     <div>
-        Hello ecommerce
+        <ProductsBlock />
     </div>
 </template>
