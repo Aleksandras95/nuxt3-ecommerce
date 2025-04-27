@@ -33,8 +33,9 @@ function submitOrder() {
 </script>
 
 <template>
-  <div class="p-8 max-w-md mx-auto">
-    <NuxtLink to="/" class="text-blue-500 hover:underline mb-6 inline-block">← Back to shop</NuxtLink>
+  <div class="pt-32 pb-24">
+    <div class="container mx-auto">
+        <NuxtLink to="/" class="text-blue-500 hover:underline mb-6 inline-block">← Back to shop</NuxtLink>
 
     <h1 class="text-3xl font-bold mb-8">Checkout</h1>
 
@@ -66,5 +67,6 @@ function submitOrder() {
         Submit order
       </button>
     </form>
+    </div>
   </div>
 </template>

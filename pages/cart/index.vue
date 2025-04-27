@@ -10,8 +10,9 @@ function handleRemove(productId) {
 </script>
 
 <template>
-  <div class="p-8">
-    <NuxtLink to="/" class="text-blue-500 hover:underline mb-6 inline-block">← Back to shop</NuxtLink>
+  <div class="pt-32 pb-24">
+    <div class="container mx-auto">
+        <NuxtLink to="/" class="text-blue-500 hover:underline mb-6 inline-block">← Back to shop</NuxtLink>
 
     <h1 class="text-3xl font-bold mb-8">Cart</h1>
 
@@ -52,6 +53,7 @@ function handleRemove(productId) {
 
     <div v-else class="text-center text-gray-500">
       Cart is empty
+    </div>
     </div>
   </div>
 </template>
